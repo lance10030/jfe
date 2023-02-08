@@ -13,7 +13,7 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN apk add git
 ARG BUILD_IMAGE
-RUN yarn build:main
+RUN yarn build:develop
 
 # Production image, copy all the files and run next
 FROM node:16-alpine AS runner
