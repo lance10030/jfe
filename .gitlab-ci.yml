@@ -1,0 +1,61 @@
+build-image:
+  stage: build
+  only:
+    refs:
+      - develop
+  script:
+    - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 594807163762.dkr.ecr.us-east-1.amazonaws.com
+    - export VERSION=develop
+    - export branch=develop
+    - export DOCKER_HUB=594807163762.dkr.ecr.us-east-1.amazonaws.com
+    - make build-image
+    - make push-image
+    - make clean-image
+  tags:
+    - aws-shell
+
+deploy-dev:
+  stage: deploy
+  only:
+    refs:
+      - develop
+  dependencies:
+    - build-image
+  script:
+    - git clone --single-branch --branch main ${GIT_SSH_REPO_NFTM}
+    - cd devops && sed -i "s/gitTag:.*/gitTag:\ '$CI_COMMIT_SHORT_SHA'/g" jaz-home-fe/test-values.yaml
+    - git commit -am '[skip ci] DEV image update'
+    - git push origin main
+  tags:
+    - aws-shell
+
+build-image-with-tag:
+  stage: build
+  only:
+    refs:
+      - tags
+  script:
+    - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 594807163762.dkr.ecr.us-east-1.amazonaws.com
+    - export VERSION=${CI_COMMIT_TAG}
+    - export branch=main
+    - export DOCKER_HUB=594807163762.dkr.ecr.us-east-1.amazonaws.com
+    - make build-image
+    - make push-image
+    - make clean-image
+  tags:
+    - aws-shell
+#
+deploy-prod:
+  stage: deploy
+  only:
+    refs:
+      - tags
+  dependencies:
+    - build-image-with-tag
+  script:
+    - git clone --single-branch --branch main ${GIT_SSH_REPO_NFTM}
+    - cd devops && sed -i "s/tag:.*/tag:\ '$CI_COMMIT_TAG'/g" jaz-home-fe/prod-values.yaml && sed -i "s/gitTag:.*/gitTag:\ '$CI_COMMIT_SHORT_SHA'/g" jaz-home-fe/prod-values.yaml
+    - git commit -am '[skip ci] prod image update'
+    - git push origin main
+  tags:
+    - aws-shell

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_4</title>
+    <defs>
+        <filter x="-34.2%" y="-34.5%" width="168.7%" height="168.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="71.1466463%" y1="-7.10542736e-13%" x2="24.6933341%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.514508441" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="71.3650294%" y1="22.1642896%" x2="23.5271046%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.9268722" offset="0%"></stop>
+            <stop stop-color="#FFFC04" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-整个背景" transform="translate(-914.000000, -859.000000)">
+            <g id="编组-32" transform="translate(0.000000, 822.000000)">
+                <g id="编组-40" transform="translate(914.000000, 18.000000)">
+                    <g id="编组-14备份" transform="translate(1.635163, 20.389658)">
+                        <path d="M5.28477197,4.24049822 L11.2532563,3.60386717 L11.2532563,3.60386717 L16.1276744,8.47828528 C16.1292913,8.47990218 16.1309026,8.48152463 16.1325084,8.48315258 L21.0060071,13.4239779 L21.0060071,13.4239779 L20.3709943,19.3268949 C20.3183752,19.8160287 19.9178061,20.1942347 19.4264588,20.2186987 L4.70776526,20.9515359 C4.1561638,20.9789999 3.6867385,20.5541025 3.6592745,20.002501 C3.6576249,19.9693696 3.6576249,19.9361766 3.6592745,19.9030451 L4.39207296,5.1851296 C4.41655388,4.69344173 4.79525192,4.2927131 5.28477197,4.24049822 Z" id="矩形备份-19" fill-opacity="0.369041603" fill="#FFFC04" filter="url(#filter-1)" transform="translate(12.305171, 12.305171) rotate(-45.000000) translate(-12.305171, -12.305171) "></path>
+                        <path d="M16.0686749,6.12639197 L20.7717052,10.8294062 L25.4835117,15.6062733 L24.8738626,21.2734154 L9.68290128,22.4521545 L9.89145436,7.20999358 L16.0686749,6.12639197 Z" id="矩形" stroke="url(#linearGradient-3)" fill="url(#linearGradient-2)" transform="translate(17.305171, 14.305171) rotate(-45.000000) translate(-17.305171, -14.305171) "></path>
+                        <line x1="13.6784383" y1="14.3768059" x2="21.4009967" y2="14.3768059" id="路径-4" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

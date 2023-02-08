@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_3</title>
+    <defs>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="31.0472107%" y1="12.8515625%" x2="80.1899719%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.514508441" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.5074506%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.768903826" offset="0%"></stop>
+            <stop stop-color="#FFFC04" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-整个背景" transform="translate(-711.000000, -859.000000)">
+            <g id="编组-32" transform="translate(0.000000, 822.000000)">
+                <g id="编组-39" transform="translate(711.000000, 18.000000)">
+                    <g id="编组-14" transform="translate(7.000000, 25.000000)">
+                        <rect id="矩形备份-2" fill-opacity="0.369041603" fill="#FFFC04" filter="url(#filter-1)" x="0" y="0" width="18" height="18" rx="1"></rect>
+                        <rect id="矩形" stroke="url(#linearGradient-3)" fill="url(#linearGradient-2)" x="5.5" y="4.5" width="17" height="17" rx="1"></rect>
+                        <path d="M14.1138311,15.8613582 L10.9281491,16.7944229 C10.7161418,16.8565184 10.4939376,16.7349909 10.4318421,16.5229835 C10.4103397,16.4495697 10.4103397,16.3715297 10.4318421,16.2981158 L11.3649067,13.1124339 C11.3864091,13.03902 11.3864091,12.96098 11.3649067,12.8875661 L10.4318421,9.70188417 C10.3697466,9.48987686 10.4912741,9.26767262 10.7032814,9.20557711 C10.7766952,9.1840747 10.8547353,9.1840747 10.9281491,9.20557711 L14.1138311,10.1386418 C14.1872449,10.1601442 14.265285,10.1601442 14.3386988,10.1386418 L17.5243808,9.20557711 C17.7363881,9.14348161 17.9585923,9.26500914 18.0206878,9.47701646 C18.0421902,9.55043027 18.0421902,9.62847035 18.0206878,9.70188417 L17.0876232,12.8875661 C17.0661208,12.96098 17.0661208,13.03902 17.0876232,13.1124339 L18.0206878,16.2981158 C18.0827833,16.5101231 17.9612558,16.7323274 17.7492485,16.7944229 C17.6758347,16.8159253 17.5977946,16.8159253 17.5243808,16.7944229 L14.3386988,15.8613582 C14.265285,15.8398558 14.1872449,15.8398558 14.1138311,15.8613582 Z" id="星形" stroke="#FFFFFF" stroke-width="1.3" opacity="0.843787784" stroke-linejoin="round" transform="translate(14.226265, 13.000000) rotate(-45.000000) translate(-14.226265, -13.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

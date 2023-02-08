@@ -1,0 +1,72 @@
+@import "../styles/utils.scss";
+
+@media screen and (min-width: 600px) {
+  .statistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 13.5vw;
+    background: #000;
+    height: 84px;
+    width: 100vw;
+    box-sizing: border-box;
+    .item {
+      display: flex;
+      align-items: flex-end;
+      flex: 1;
+      .img {
+        width: 34px;
+        height: 34px;
+        margin-right: 4px;
+        border: 1px dashed rgba(255, 255, 255, 0.3);
+      }
+      .title {
+        font-size: 16px;
+        color: white;
+        line-height: rem(24px);
+        white-space: nowrap;
+      }
+      .value {
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .statistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    width: 185vw;
+    padding: 7px;
+    .item {
+      display: flex;
+      align-items: flex-end;
+      flex: 1;
+      .img {
+        width: vw(17);
+        height: vw(17);
+        margin-right: 7px;
+      }
+      .title {
+        font-size: vw(12);
+        color: white;
+        white-space: nowrap;
+      }
+      .value {
+        color: white;
+        font-weight: 700;
+        font-size: vw(15);
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 1.5px;
+      }
+    }
+  }
+}

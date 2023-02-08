@@ -1,0 +1,27 @@
+@import "../styles/utils.scss";
+.tooltip {
+  padding: vw(12);
+  margin-top: vw(40);
+  background: rgba(255, 255, 255, 0.1);
+}
+.top {
+  display: flex;
+  align-items: center;
+  color: $text70;
+  .rect {
+    width: vw(10);
+    height: vw(10);
+  }
+  .name {
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: vw(8);
+    margin-bottom: vw(2);
+  }
+}
+.value {
+  font-weight: 500;
+  font-size: vw(20);
+  line-height: vw(28);
+  color: $text95;
+}

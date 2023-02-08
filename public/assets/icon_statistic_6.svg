@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_6</title>
+    <defs>
+        <filter x="-32.7%" y="-40.9%" width="165.5%" height="181.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="71.1489214%" y1="22.214876%" x2="24.6906114%" y2="77.785124%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.514508441" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="71.367328%" y1="34.5316267%" x2="23.5242564%" y2="77.785124%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.9268722" offset="0%"></stop>
+            <stop stop-color="#FFFC04" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-整个背景" transform="translate(-1500.000000, -859.000000)">
+            <g id="编组-32" transform="translate(0.000000, 822.000000)">
+                <g id="编组-9" transform="translate(1500.000000, 18.000000)">
+                    <g id="礼物_gift" transform="translate(5.833333, 26.000000)">
+                        <rect id="矩形" fill-opacity="0.01" fill="#FFFFFF" fill-rule="nonzero" x="4.16666667" y="0" width="22" height="22"></rect>
+                        <path d="M16.9583333,17.1666667 L16.9583333,6.16666667 L1.375,6.16666667 L1.375,17.1666667 L16.9583333,17.1666667 Z M0,2.5 L18.3333333,2.5 L18.3333333,6.16666667 L0,6.16666667 L0,2.5 Z" id="形状结合" fill-opacity="0.369041603" fill="#FFFC04" filter="url(#filter-1)"></path>
+                        <path d="M24.7833333,5.05 L24.7833333,9.61666667 L23.4083333,9.61666667 L23.4083333,19.6166667 L6.925,19.6166667 L6.925,9.61666667 L5.55,9.61666667 L5.55,5.05 L24.7833333,5.05 Z" id="形状结合" stroke="url(#linearGradient-3)" stroke-width="0.9" fill="url(#linearGradient-2)"></path>
+                        <line x1="18.8333333" y1="9.16666667" x2="11.5" y2="9.16666667" id="路径" stroke="#EDEDED" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <polyline id="路径" stroke="#EDEDDF" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" points="11.5 1.83333333 15.1666667 4.58333333 18.8333333 1.83333333"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

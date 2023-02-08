@@ -1,0 +1,96 @@
+@import "./utils.scss";
+$browser-default-font-size: 100px !default;
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: $browser-default-font-size;
+  font-family: "Helvetica Neue";
+}
+body {
+  font-size: 16px;
+  line-height: 1.1;
+}
+p {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+  .normalText {
+    font-weight: 400;
+    font-size: rem(20px) !important;
+    line-height: rem(28px) !important;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .container {
+    margin-top: rem(80px);
+  }
+  .subTitle {
+    font-size: 72px;
+    font-family: Helvetica, Helvetica-Bold;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    line-height: 86px;
+  }
+  .subTitle2 {
+    color: $text;
+    font-weight: 700;
+    font-size: rem(28px) !important;
+    line-height: rem(40px) !important;
+  }
+  .default-menu {
+    font-weight: 500;
+    font-size: 16px;
+    padding: rem(20px) 0;
+    margin: 0 rem(25px);
+    color: #393e41;
+    text-decoration: none;
+    font-weight: 700;
+    &.active-menu {
+      border-bottom: 2px solid #000;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    margin-top: 44px;
+  }
+  .normalText {
+    font-weight: 400;
+    font-size: vw(16) !important;
+    line-height: vw(24) !important;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .subTitle {
+    color: $text;
+    font-weight: 700;
+    font-size: vw(28) !important;
+    line-height: vw(36) !important;
+  }
+  .subTitle2 {
+    color: $text;
+    font-weight: 700;
+    font-size: vw(20) !important;
+    line-height: vw(24) !important;
+  }
+  .default-menu {
+    font-size: rem(20px);
+    padding: rem(20px) 0;
+    margin: 0 rem(20px);
+    text-decoration: none;
+    font-weight: 700;
+    &.active-menu {
+      color: #52f7c7;
+      border-bottom: 2px solid #52f7c7;
+    }
+  }
+}

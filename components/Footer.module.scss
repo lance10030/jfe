@@ -1,0 +1,48 @@
+@import "../styles/utils.scss";
+
+@media screen and (min-width: 600px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 74px;
+    text-align: center;
+    font-size: rem(14px);
+    padding: 0 13.5vw;
+    background: #000;
+    margin: auto;
+    box-sizing: content-box;
+    .img {
+      width: rem(84px);
+    }
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    .linkImg {
+      width: 25px;
+      margin-right: 8px;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    padding: vw(20) 13px vw(14) 13px;
+    background: #000;
+    margin: auto;
+    box-sizing: content-box;
+    .img {
+      width: vw(64);
+    }
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    .linkImg {
+      width: vw(32);
+      margin-left: vw(20);
+    }
+  }
+}

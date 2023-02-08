@@ -1,0 +1,59 @@
+@import "../styles/utils.scss";
+
+@media screen and (min-width: 600px) {
+  .outer {
+    background: #fffc04;
+    padding: 88px 13.5vw;
+    padding-bottom: 100px;
+  }
+  .release {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    .wrapper {
+      flex: 1;
+      ul {
+        transform: translateX(-20px);
+        li {
+          margin-bottom: rem(24px);
+          font-size: 20px;
+          font-family: Helvetica, Helvetica-Regular;
+          font-weight: 400;
+          text-align: left;
+          color: #000000;
+          line-height: 28px;
+        }
+      }
+    }
+    .tableCard {
+      img {
+        width: 39.5vw;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .release {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    .wrapper {
+      flex: 1;
+      ul {
+        transform: translateX(-20px);
+        li {
+          margin-bottom: rem(24px);
+        }
+      }
+    }
+    .tableCard {
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-sizing: border-box;
+      border-radius: 8px;
+      padding: rem(28px) rem(24px);
+    }
+  }
+}

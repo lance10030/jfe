@@ -1,0 +1,97 @@
+@import "../styles/utils.scss";
+
+@media screen and (min-width: 600px) {
+  .box {
+    display: flex;
+    justify-content: center;
+    background: #fffc04;
+    padding: 11.7vw 13.5vw;
+    padding-bottom: 13.6vw;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 34.8vw;
+      padding: rem(48px) rem(32px);
+      border: 5px solid #000000;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #000;
+      .cardTitle {
+        font-size: 40px;
+        font-family: Helvetica, Helvetica-Bold;
+        font-weight: 700;
+        text-align: left;
+        color: #000000;
+        line-height: 48px;
+      }
+      .content {
+        font-size: 22px;
+        font-family: Helvetica, Helvetica-Regular;
+        font-weight: 400;
+        text-align: left;
+        color: #000000;
+        line-height: 28px;
+      }
+      .btn {
+        background: white;
+        border-radius: 28px;
+        padding: 15px 53px;
+        font-weight: 500;
+        font-size: 22px;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 1);
+      }
+      .btn:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fffc04;
+    padding: vw(32) 0;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 91.4vw;
+      padding: vw(23) vw(32);
+      border: 5px solid #000000;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #000;
+      .cardTitle {
+        font-size: vw(17);
+        font-family: Helvetica, Helvetica-Bold;
+        font-weight: 700;
+        text-align: left;
+        color: #000000;
+      }
+      .content {
+        font-size: vw(12);
+        font-family: Helvetica, Helvetica-Regular;
+        font-weight: 400;
+        text-align: left;
+        color: #000000;
+      }
+      .btn {
+        background: white;
+        border-radius: 28px;
+        padding: vw(11) vw(32);
+        font-weight: 500;
+        font-size: 13px;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 1);
+      }
+      .btn:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

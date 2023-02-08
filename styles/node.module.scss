@@ -1,0 +1,148 @@
+@import "../styles/utils.scss";
+
+@media screen and (max-width: 600px) {
+  .section1 {
+    width: 100%;
+    background: url("/assets/mobile/token-banner-mobile.png") no-repeat center
+      center;
+    background-size: 100%;
+    height: 132vw;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: vw(60) vw(16) 0 vw(16);
+
+      .mainText {
+        font-weight: 700;
+        font-size: vw(40);
+        line-height: vw(48);
+        color: $text;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: vw(24);
+      }
+      .tip {
+        font-weight: 500;
+        font-size: vw(16);
+        line-height: vw(24);
+        color: $text95;
+        text-align: center;
+      }
+    }
+  }
+  .section2 {
+    width: 100vw;
+    padding: 0 vw(16);
+  }
+}
+@media screen and (min-width: 600px) {
+  .section1 {
+    position: relative;
+    width: 100%;
+    .content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      font-size: 72px;
+      font-family: Helvetica, Helvetica-Bold;
+      font-weight: 700;
+      text-align: center;
+      color: #000000;
+      background: #fffc04;
+      line-height: 90px;
+      padding-top: 100px;
+      padding-bottom: 74px;
+      .text {
+        font-size: 40px;
+        font-family: Helvetica, Helvetica-Bold;
+        font-weight: 700;
+        text-align: center;
+        color: #000000;
+        line-height: 62px;
+        width: 72.8vw;
+        margin: 30px auto;
+        margin-bottom: 0;
+      }
+      .mainText {
+        font-size: rem(80px);
+        line-height: rem(94px);
+        color: $text;
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      .tip {
+        margin-top: rem(20px);
+        font-weight: 500;
+        font-size: rem(20px);
+        line-height: rem(28px);
+        color: $text95;
+      }
+    }
+  }
+  .section2 {
+    .text30 {
+      font-size: 30px;
+      font-family: Helvetica, Helvetica-Regular;
+      font-weight: 400;
+      text-align: center;
+      color: #000000;
+      line-height: 54px;
+      margin: auto;
+    }
+    .ecosystem {
+      padding: 88px 13.5vw;
+      padding-bottom: 13px;
+      background: #f0f1f2;
+    }
+    .guide {
+      padding: 88px 13.5vw;
+      background: #fffc04;
+      .text {
+        width: 72.8vw;
+        margin: auto;
+        font-size: 40px;
+        font-family: Helvetica, Helvetica-Bold;
+        font-weight: 700;
+        text-align: center;
+        color: #000000;
+        line-height: 62px;
+      }
+      .seeMore {
+        width: 370px;
+        height: 98px;
+        line-height: 98px;
+        background: white;
+        color: black;
+        font-size: 40px;
+        font-family: PingFangSC, PingFangSC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 49px;
+        margin: auto;
+        margin-top: 51px;
+        cursor: pointer;
+      }
+    }
+    .mining {
+      padding: 140px 13.5vw;
+      padding-bottom: 174px;
+      background: white;
+      .seeMore {
+        width: 370px;
+        height: 98px;
+        line-height: 98px;
+        background: white;
+        color: black;
+        font-size: 40px;
+        font-family: PingFangSC, PingFangSC-Semibold;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 49px;
+        margin: auto;
+        margin-top: 51px;
+        cursor: pointer;
+      }
+    }
+  }
+}

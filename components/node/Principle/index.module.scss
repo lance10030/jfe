@@ -1,0 +1,56 @@
+@import "../styles/utils.scss";
+
+@media screen and (min-width: 600px) {
+  .functions {
+    padding: 88px 13.5vw;
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+      .title {
+        font-size: 36px;
+        font-family: Helvetica, Helvetica-Bold;
+        font-weight: 700;
+        text-align: left;
+        color: #ffffff;
+        line-height: 43px;
+        margin-top: 40px;
+        margin-bottom: 24px;
+      }
+      .tip {
+        font-size: 20px;
+        font-family: Helvetica, Helvetica-Regular;
+        font-weight: 400;
+        text-align: center;
+        color: #ffffff;
+        line-height: 28px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .functions {
+    margin-bottom: vw(100);
+    .item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: vw(16);
+      img {
+        width: vw(48);
+        height: vw(48);
+      }
+      .title {
+        font-weight: 700;
+        font-size: vw(18);
+        line-height: vw(26);
+        margin-top: vw(17);
+        margin-bottom: vw(8);
+        color: $text95;
+      }
+    }
+  }
+}
