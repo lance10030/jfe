@@ -12,7 +12,8 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN apk add git
-ARG BUILD_IMAGE
+RUN npm install -g increase-memory-limit
+RUN increase-memory-limit
 RUN yarn build:develop
 
 # Production image, copy all the files and run next
