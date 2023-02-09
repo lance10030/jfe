@@ -12,6 +12,7 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN apk add git
+RUN export NODE_OPTIONS="--max-old-space-size=8192"
 RUN yarn build:develop
 
 # Production image, copy all the files and run next
