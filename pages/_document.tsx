@@ -8,7 +8,6 @@ class AppDocument extends Document {
         <meta name='keywords' content='JAZ' />
         <meta name='description' content='JAZ Network' />
         <link rel='icon' href='/favicon.png' />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLLSZ8EZQJ" />
         <script dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
